@@ -1,5 +1,5 @@
 # yukdonasi-website
 
 
- Language: English
+ Language: Indonesia (Sementara)
  - Interface Beranda
