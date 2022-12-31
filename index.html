@@ -22,7 +22,7 @@
     {
         width: 100%;
         height: 100vh;
-        background: linear-gradient(to left, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(image/kids_background.jpg) center / cover;
+        background: linear-gradient(to left, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0.5) 75%), url(image/kids_background.jpg) center / cover;
         background-repeat: no-repeat;
     }
     .container
@@ -34,30 +34,123 @@
         justify-content: space-between;
         align-items: center;
     }
+    .logo
+    {
+        color: #fff;
+        cursor: pointer;
+    }
+    nav ul
+    {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    nav ul li
+    {
+        margin-right: 30px;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 550;
+        font-size: 20px;
 
+
+    }
+    nav ul li:hover
+    {
+        color: #058283;
+    }
+    .active
+    {
+        color: #058283
+
+    }
+    .btn
+    {
+        width: 110px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        background: #058283;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+
+    }
+    .btn:hover
+    {
+        background: #fff;
+        color: #058283;
+    }
+    .content
+    {
+        width: 1200px;
+        height: 100vh;
+        margin: auto; 
+        
+    }
+    .content h3
+    {
+        color: #058283;
+        padding-top: 100px;
+        font-weight: 400px;
+        font-size: 30px;
+        outline-color: #fff;
+    }
+    .content h1
+    {
+        color: #fff;
+        padding-top: 20px;
+        font-size: 80px;
+        line-height: 75px;
+    }
+    .content p
+    {
+        color: #f1f1f1;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 1px; 
+        margin-bottom: 20px;
+    }
+    .contain .btn
+    {
+        margin-top: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .content .btn2
+    {
+        background: transparent;
+        border: 1px solid #058283;
+        border-radius: 8px;
+        margin-left: 10px;
+    }
+    .content .btn2:hover
+    {
+        background: #058283;
+    }
 </style>
 
 <body>
     <div class="container-fluid">
         <div class="container">            
-            <h1>Mulai Berdonasi</h1>
-            <h2 class="logo">*logo donasi_barang</h2>
-            <h2>Donasi Barang secara Online dengan Kemampuan Tracking dan Free Ongkir</h2>
+            <h1 class="logo">donasi.brg</h1>
             <nav>   
                 <ul>
                     <li class="active">Beranda</li>
                     <li>Donasi</li>
                     <li>Program Yayasan</li>
                     <li>Artikel</li>
-                    <li>Catalog Barang Hias</li>
-                    <li><button class="btn">Profil</button></li>
-                    <li><button class="btn">Keluar</button></li>
+                    <li>Katalog Jual</li>
+                    <li><button class="btn">Masuk</button></li>
                 </ul>
             </nav>
         </div>  
             <div class="content">
-                <h3>Donation Services</h3>
-                <h1>Donation<br>Cargo</h1>
+                <h3>Layanan Donasi Barang</h3>
+                <h1>Berdonasi,<br>Untuk Yayasan Sosial</h1>
                 <p>Berkembangnya era teknologi informasi saat ini mendorong masyarakat 
                     untuk melakukan berbagai transaksi secara online. Salah satu dari 
                     teknologi yang berkembang saat ini salah satunya adalah website. 
@@ -67,7 +160,7 @@
                     dan cakupan yang lebih luas, semua masyarakat bisa berinteraksi 
                     dengan mudah, cepat dan gratis.</p>
                     <button class="btn">Read More</button>
-                    <button class="btn btn2">Privacy and Policy</button>
+                    <button class="btn btn2">Policy</button>
             </div>
         </div>
     </div>      
