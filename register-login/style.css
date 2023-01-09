@@ -10,10 +10,12 @@
     height: 100%;
     width: 100%;
     place-items: center;
-    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+    background:  linear-gradient(to left, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0.5) 75%), url('barang_background.jpg') center/cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   ::selection{
-    background: #fa4299;
+    background: #18978F;;
     color: #fff;
   }
   .wrapper{
@@ -33,7 +35,7 @@
     font-size: 35px;
     font-weight: 600;
     text-align: center;
-    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+    transition: all 0.1s cubic-bezier(0.68,-0.55,0.265,1.55);
   }
   .wrapper .slide-controls{
     position: relative;
@@ -43,7 +45,7 @@
     overflow: hidden;
     margin: 30px 0 10px 0;
     justify-content: space-between;
-    border: 1px solid lightgrey;
+    /*border: 1px solid lightgrey;*/
     border-radius: 5px;
   }
   .slide-controls .slide{
@@ -56,7 +58,7 @@
     line-height: 48px;
     cursor: pointer;
     z-index: 1;
-    transition: all 0.6s ease;
+    transition: all 0.1s ease;
   }
   .slide-controls label.signup{
     color: #000;
@@ -68,8 +70,8 @@
     left: 0;
     z-index: 0;
     border-radius: 5px;
-    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
-    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+    background: -webkit-linear-gradient(left, #54BAB9, #18978F);
+    transition: all 0.1s cubic-bezier(0.68,-0.55,0.265,1.55);
   }
   input[type="radio"]{
     display: none;
@@ -102,7 +104,7 @@
   }
   .form-container .form-inner form{
     width: 50%;
-    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+    transition: all 0.1s cubic-bezier(0.68,-0.55,0.265,1.55);
   }
   .form-inner form .field{
     height: 50px;
@@ -118,15 +120,15 @@
     border: 1px solid lightgrey;
     border-bottom-width: 2px;
     font-size: 17px;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
   }
   .form-inner form .field input:focus{
-    border-color: #fc83bb;
+    border-color: #E9DAC1;
     /* box-shadow: inset 0 0 3px #fb6aae; */
   }
   .form-inner form .field input::placeholder{
     color: #999;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
   }
   form .field input:focus::placeholder{
     color: #b3b3b3;
@@ -140,7 +142,7 @@
   }
   .form-inner form .pass-link a,
   .form-inner form .signup-link a{
-    color: #fa4299;
+    color: #18978F;
     text-decoration: none;
   }
   .form-inner form .pass-link a:hover,
@@ -159,9 +161,9 @@
     width: 300%;
     position: absolute;
     left: -100%;
-    background: -webkit-linear-gradient(right, #a445b2, #fa4299, #a445b2, #fa4299);
+    background: -webkit-linear-gradient(right, #54BAB9, #18978F, #54BAB9, #18978F);
     border-radius: 5px;
-    transition: all 0.4s ease;;
+    transition: all 0.1s ease;;
   }
   form .btn:hover .btn-layer{
     left: 0;
